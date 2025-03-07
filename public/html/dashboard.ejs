@@ -159,11 +159,11 @@
 
             if (!uName || !uPass) {
                 document.getElementById('errorDiv').classList.remove('hidden');
-                document.getElementById('errorMessage').innerHTML = 'Username atau Password kosong';
+                document.getElementById('errorMessage').innerHTML = 'GrowID atau Password kosong';
                 return;
             } else if (uName.length < 4 || uPass.length < 4) {
                 document.getElementById('errorDiv').classList.remove('hidden');
-                document.getElementById('errorMessage').innerHTML = 'Username atau Password minimal 4 karakter';
+                document.getElementById('errorMessage').innerHTML = 'GrowID atau Password minimal 4 karakter';
                 return;
             } else {
                 loginForm.submit();
