@@ -1,0 +1,32 @@
+{
+    "name": "growtopia-login-backend",
+    "version": "1.0.0",
+    "description": "Growtopia Login Backend with Fluid Compute and Skew Protection",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "build": "echo 'Build completed'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/YoruAkio/GrowtopiaLogin-Backend.git"
+    },
+    "author": "YoruAkio <yoruakio@proton.me>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/YoruAkio/GrowtopiaLogin-Backend/issues"
+    },
+    "homepage": "https://github.com/YoruAkio/GrowtopiaLogin-Backend#readme",
+    "dependencies": {
+        "express": "^4.18.2",
+        "body-parser": "^1.20.2",
+        "express-rate-limit": "^7.1.5",
+        "compression": "^1.7.4",
+        "bcrypt": "^5.1.1",
+        "ejs": "^3.1.9"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.3"
+    }
+}
